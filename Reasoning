@@ -1,0 +1,5 @@
+"Legacy code is untested code." - Martin Fowler
+
+The above statement pretty much implies that 
+tests are not only written to find bugs, but to
+also maintain keep away the codebase from "rotting."
