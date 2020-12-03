@@ -12,6 +12,11 @@ describe('workspace-project App', () => {
 
   // https://stackoverflow.com/questions/20927652/how-to-use-protractor-on-non-angularjs-website
   // If I am interacting with a non-Angular website, I can use the browser.driver to directily interact with the browser driver.
+  // https://medium.com/@walmyrlimaesilv/simulating-mobile-devices-with-protractor-tests-7dca9d9757e8
+  // Can emulate mobile too.
+  // https://stackoverflow.com/questions/33757170/protractor-run-specific-test-as-mobile-device
+  // https://github.com/angular/protractor/issues/605
+  // Can emulate mobile on specific spec files.
   it('Login', () => {
     browser.driver.get('https://www.google.com/');
 

@@ -12,9 +12,17 @@ exports.config = {
   specs: [
     './src/**/*.e2e-spec.ts'
   ],
-  capabilities: {
-    'browserName': 'chrome'
-  },
+  // https://stackoverflow.com/questions/33757170/protractor-run-specific-test-as-mobile-device
+  // https://github.com/angular/protractor/issues/605
+  // Can emulate mobile on specific spec files.
+  // capabilities: {
+  //   'browserName': 'chrome',
+  //   'chromeOptions': {
+  //     'mobileEmulation': {
+  //       'deviceName': 'Pixel 2'
+  //     }
+  //   }
+  // },
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',
